@@ -1,0 +1,175 @@
+{
+  "HomePage": {
+    "title": "IDENTITY Digital educational platform for Armenian culture",
+    "description": "Digital educational platform for Armenian culture"
+  },
+  "FoundationPage": {
+    "title": "FOUNDATION",
+    "description": "The Sardarapat of Identity Victory Has No Alternative"
+  },
+  "ContactPage": {
+    "title": "CONTACT",
+    "description": "Contact us for more information and support"
+  },
+  "GalleryPage": {
+    "title": "GALLERY",
+    "description": "Digital educational platform for Armenian culture"
+  },
+  "DonatePage": {
+    "title": "DONATION",
+    "description": "Digital educational platform for Armenian culture"
+  },
+  "clipBoard": {
+    "copy": "Copied to clipboard",
+    "error": "Failed to copy to clipboard"
+  },
+  "metadata": {
+    "title": "\"Identity\" Foundation | Digital Educational Platform for Armenian Culture",
+    "description": "The Foundation digitizes and promotes Armenian culture through documentary filmmaking"
+  },
+  "HeaderImg": {
+    "title": "The Sardarapat of Identity Victory Has No Alternative",
+    "buttonText": "WATCH THE VIDEO"
+  },
+  "Home": "Home",
+  "HomeUpdates": {
+    "linkText": "All updates"
+  },
+  "Gallery": {
+    "title": "Video gallery",
+    "noData": "We are actively working to ensure every section of the platform is comprehensive. Your support will help us accelerate this process",
+    "allFilms": "All films"
+  },
+  "back": "Back",
+  "Foundation": {
+    "supporters": {
+      "usersTitle": "Individuals",
+      "companiesTitle": "Become a Supporter"
+    },
+    "title": "Foundation",
+    "donateButton": "Donate",
+    "supporterButton": "Supporters",
+    "comingSoon": "Coming Soon"
+  },
+  "Subscribe": {
+    "messagePopup": {
+      "success": "You have successfully subscribed to our newsletter",
+      "fail": "Your subscription failed. please try again"
+    }
+  },
+  "Header": {
+    "navItem1": "Video gallery",
+    "navItem1Content1": "All",
+    "navItem1Content2": "Regions",
+    "navItem1Content3": "Ethnography",
+    "navItem2": "Foundation",
+    "navItem3": "Contact",
+    "headerButton": "DONATE"
+  },
+  "Contact": {
+    "title": "Contact",
+    "messagePopup": {
+      "success": "Your message has been successfully sent",
+      "fail": "Message not sent. please try again"
+    },
+    "form": {
+      "fullName": "Name and surname",
+      "email": "e-mail",
+      "theme": "Theme",
+      "message": "Message",
+      "button": "Send",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Email is invalid",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Phone number is invalid",
+      "fullNameRequired": "Name and surname is required",
+      "themeRequired": "Theme is required",
+      "messageRequired": "Message is required"
+    }
+  },
+  "Map": {
+    "title": "ՃԱՆԱՉԵՆՔ ՀԱՅԱՍՏԱՆԸ",
+    "provinceName": "",
+    "km": "sq.km",
+    "villages": "villages",
+    "city": "city",
+    "buttonText": "Go to video library",
+    "closeMore": "see less",
+    "showMore": "see more",
+    "country": "Capital City"
+  },
+  "Donation": {
+    "title": "DONATE",
+    "donatPopup": {
+      "success": "Success! Thank you for joining us in documenting Armenian culture",
+      "error": "Something went wrong. Please check your information and don't forget to try again."
+    },
+    "anonimous": "Anonymous donation",
+    "form": {
+      "amount": "Amount",
+      "name": "Full name",
+      "email": "Email",
+      "card": "Card number",
+      "submit": "Donate",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Email is invalid",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Phone number is invalid",
+      "fullNameRequired": "Name and surname is required",
+      "moneyRequired": "Money is required",
+      "currencyRequired": "Currency is required"
+    },
+    "cardTitle": "Card transfer",
+    "cardText": "Donate with your bank card",
+    "popup": {
+      "donate": {
+        "title": "Subscribe as a Monthly Donor",
+        "description": "By selecting a monthly donation, the specified amount will be automatically charged each month. You may cancel or modify your subscription at any time, and after confirmation, the payment for the following month will not be charged"
+      },
+      "anonim": {
+        "title": "Donate anonymously",
+        "description": "By selecting an anonymous donation, your information will not be published on the website. It will appear in the list of donors as “Anonymous Donation”"
+      }
+    },
+    "donationTexts": {
+      "recipient": "Recipient: \"Identity\" Cultural Foundation",
+      "transfer": "Direct Transfers",
+      "supporter": "Supporters",
+      "anonim": "Anonymous Donation"
+    }
+  },
+  "Footer": {
+    "LogoText": "The foundation digitizes and promotes Armenian culture through documentary filmmaking",
+    "Foundation": {
+      "title": "Foundation",
+      "0": "About Us",
+      "1": "Project",
+      "2": "Board of Trustees",
+      "3": "Team",
+      "4": "Supporters"
+    },
+    "Gallery": {
+      "title": "Gallery"
+    },
+    "Contact": {
+      "title": "Contact",
+      "email": "Email"
+    },
+    "Subscribe": {
+      "title": "Subscribe",
+      "text": "Receive foundation news and important project updates via email",
+      "buttonText": "Subscribe",
+      "form": {
+        "emailRequired": "Email is required",
+        "emailInvalid": "Email is invalid",
+        "phoneRequired": "Phone number is required",
+        "phoneInvalid": "Phone number is invalid"
+      }
+    },
+    "CopyRightText": "© “Identity” Foundation, 2024"
+  },
+  "ShowMoreAndLessMoreButtons": {
+    "closeMore": "see less",
+    "showMore": "see more"
+  }
+}

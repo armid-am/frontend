@@ -1,0 +1,27 @@
+.foundation {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas: "content content content content content content";
+}
+.our-activity-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* grid-template-rows: repeat(2, 200px); */
+  grid-template-areas:
+    "image-first image-first image-first image-third image-third image-third"
+    "image-second image-second image-second image-third image-third image-third";
+}
+@media (min-width: 1024px) {
+  .foundation {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: "category category content content content content content content";
+  }
+}
+@media (min-width: 1440px) {
+  .foundation {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: "category category category content content content content content content video video video";
+  }
+}

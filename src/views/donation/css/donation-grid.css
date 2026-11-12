@@ -1,0 +1,28 @@
+.donation-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+  grid-template-areas: "form form form form form form" "text text text text text text";
+}
+
+/* @media (min-width: 768px) {
+  .donation-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: "form form form form form form text text text text text text";
+  }
+} */
+
+@media (min-width: 1024px) {
+  .donation-grid {
+    grid-template-columns: repeat(8, 1fr);
+    gap: 24px;
+    grid-template-areas: "form form form form text text text text";
+  }
+}
+@media (min-width: 1440px) {
+  .donation-grid {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: "form form form form form form text text text text text text";
+  }
+}

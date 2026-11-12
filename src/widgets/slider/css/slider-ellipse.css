@@ -1,0 +1,125 @@
+.slider-ellipse__container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.slider-ellipse__slide {
+  position: absolute;
+  transition:
+    left 0.5s,
+    top 0.5s,
+    transform 0.5s,
+    opacity 0.5s;
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  max-width: 77vw !important;
+  transform: translate(-50%, -50%);
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.slider-ellipse__container:not(.ready) .slider-ellipse__slide {
+  transition: none !important;
+  opacity: 0 !important;
+}
+
+.slider-ellipse__slide-poster {
+  position: absolute;
+  top: 0.2%;
+  left: 0;
+  bottom: 0.2%;
+  right: 0;
+  z-index: 5;
+  width: 100%;
+  height: 99.6%;
+  background-color: #fff;
+}
+
+.poster-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 99.7%;
+  z-index: 6;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 64%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+.poster-overlay-light {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.slider-ellipse__slide span {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  font-size: clamp(1rem, 0.5385rem + 2.0513vw, 3rem);
+  font-weight: 400;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.slider-ellipse__pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.slider-ellipse__pagination-button {
+  width: clamp(0.75rem, 0.527rem + 0.8108vw, 1.5rem);
+  aspect-ratio: 1;
+  background-color: #781214;
+  opacity: 1;
+  border-radius: 50%;
+  transition:
+    opacity 0.3s,
+    transform 0.3s;
+}
+
+@media (min-width: 480px) {
+  .slider-ellipse__slide span {
+    bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  .slider-ellipse__slide {
+    border-radius: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .slider-ellipse__pagination {
+    gap: 12px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .slider-ellipse__slide {
+    max-width: calc(1010px) !important;
+  }
+}
+
+.slider-ellipse__slide video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slider-navigation {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) !important;
+  opacity: 0.8;
+}

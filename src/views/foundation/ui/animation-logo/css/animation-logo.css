@@ -1,0 +1,58 @@
+.animation-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation-logo svg {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+.animation-logo:not(.loaded) path {
+  opacity: 0;
+}
+.animation-logo.loaded path {
+  opacity: 1;
+}
+.animation-logo.loaded g {
+  opacity: 0;
+}
+
+@keyframes drawPath {
+  0% {
+    stroke-dashoffset: var (--length);
+    stroke-dasharray: var (--length);
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: var (--length);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.animation-logo:not(.loaded) g {
+  animation: fadeOut 1s ease-in-out 4s forwards;
+}

@@ -1,0 +1,9 @@
+export { EllipseSlider } from "@/widgets/slider/ui/ellipse-slider";
+export { HomeHero } from "./hero/home-hero";
+export { Home } from "./home";
+export { ModalVideo } from "../../../entities/modal-video/ui/modal-video";
+export { Updates } from "./updates";
+export { LogoSlider } from "@/widgets/logo-slider/ui/logo-slider";
+export { HeroBgVideo } from "./hero/hero-bg-video";
+export { HeroButton } from "./hero/hero-button";
+export { EllipseSliderContainer } from "@/widgets/slider/ui/ellipse-slider-container";
