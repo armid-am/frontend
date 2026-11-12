@@ -18,7 +18,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "identity-backend.vercel.app",
+        hostname: "backend-rho-sage-84.vercel.app",
       },
       { protocol: "https", hostname: "i.ytimg.com" },
     ],
